@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GOA Tourism App</string>
+    <string name="toggle_camera">Toggle Camera</string>
+    <string name="detect_object">Detect Object</string>
+    <string name="name">com.amitshekhar.tflite_name</string>
+    <string name="login_status">com.amitshekhar.tflite_loginstatus</string>
+    <string name="shared_preferences">com.amitshekhar.tflite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

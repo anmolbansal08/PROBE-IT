@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amitshekhar.tflite.MainActivity">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:adjustViewBounds="true"
+        app:ckFocus="tap"
+        app:ckJpegQuality="100"
+        app:ckMethod="still"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+       android:id="@+id/btnToggleObject"
+       android:layout_width="47dp"
+       android:layout_height="47dp"
+       android:layout_gravity="center_vertical"
+       android:layout_marginRight="35dp"
+       android:background="@drawable/circular"
+       android:src="@drawable/icauncherroundd" />
+
+        <ImageView
+            android:id="@+id/btnDetectObject"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/circular"
+            android:src="@drawable/iclauncherround" />
+
+        <ImageView
+            android:id="@+id/imageViewResult"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/hi3" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
